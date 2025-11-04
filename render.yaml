@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: azarov7777-server
+    env: node
+    region: frankfurt
+    buildCommand: npm install
+    startCommand: node server.js
